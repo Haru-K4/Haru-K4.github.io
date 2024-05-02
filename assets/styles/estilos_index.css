@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#navegar {
+    background-color: rgb(47, 6, 16);
+    color: #c06a8b;
+    padding: 6px;
+}
+
+#navegar h1 {
+    padding: 10px;
+    margin: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.menu {
+    padding: 6px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #e8adc1;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ff0080;
+}
+
+#banner {
+    position: relative;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#banner_contenido {
+    position: absolute;
+    top: 50%;
+    left:10%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #2d0606;
+    font-size: 40px;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: #410732;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 30px;
+}
+
+.boton:hover {
+    background-color: #96536b;
+}
+body{
+    background-color: rgb(80, 18, 37);
+    margin: 0;
+    padding: 0;
+}
+#registro{
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #efb4bf;
+    margin: 20px;
+
+}
+#inicio{
+    background-color: #f1b7c1;
+    font-size:30px;
+    padding: 20px;
+    margin: 30px;
+    color: #000000;
+    text-align: center;
+    border-radius: 20px;
+
+}
+#preg{
+    background-color: #f5b9ca;
+    font-size:20px;
+    padding: 20px;
+    margin: 30px;
+    color: #000000;
+    border-radius: 20px;
+}
+footer{
+    padding: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13px;
+    text-align: center;
+    margin: 0px;
+
+}
+footer img {
+    width:3%;
+}
+#imagenes {
+    display: flex;
+    justify-content: center;
+}
+
+#imagenes img {
+    width: 40px;
+    margin-left: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    #navegar {
+        text-align: center;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+
+    .menu a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #banner_contenido {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        text-align: center;
+        font-size: 24px;
+        color: white;
+    }
+    #registro{
+        font-size: 15px;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        color: white;
+        background-color: rgba(52, 6, 27, 0);
+    .boton {
+        font-size: 20px;
+        background-color: #e8adc1;
+        color: #34061b;
+    }
+
+    #imagenes img {
+        width: 30px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+}
+
+

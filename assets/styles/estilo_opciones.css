@@ -1,0 +1,93 @@
+header{
+    margin: 20px;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+#navegar {
+    border-radius: 20px;
+    background-color: rgb(47, 6, 16);
+    color: #c06a8b;
+    padding: 6px;
+}
+
+#navegar h1 {
+    padding: 10px;
+    margin: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.menu {
+    padding: 6px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #e8adc1;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ff0080;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #775970;
+
+}
+
+#text {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #380517;
+    color: #ffbbd0;
+    text-align: center;
+}
+
+#form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #34061b;
+    color: white;
+    align-items: center;
+}
+
+
+form input{
+    background-color: #e8adc1;
+    border-radius: 20px;
+    width:200px;
+}
+form label,
+form button {
+    align-items: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #72123a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #fd8ec1;
+}

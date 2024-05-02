@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta animales perdidos</title>
+    <link rel="stylesheet" href="assets/styles/estilo_opciones.css">
+</head>
+<header>
+    <section id="navegar">
+        <h1>Registro Nacional de Tenencia Responsable
+            de Mascotas y Animales de Compañía</h1>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="registro.html">Requisitos</a>
+            <a href="index.html">Preguntas frecuentes</a>
+            <a href="perdido.html">Consulta de animales perdidos</a>
+            <a href="reg.html">Mis solicitudes</a>
+        </nav>
+    </section>
+</header>
+<body>
+<section id="text">
+    <h1>CONSULTAS</h1>
+   <p>En el siguiente cuadro podrá consultar, mediante el número de microchip o identificador de dispositivo externo de la mascota, algunos datos asociados a animales extraviados que se encuentren ingresados en el Registro Nacional de Tenencia Responsable de Mascotas y Animales de Compañía .
+       Si el animal se encuentra registrado, debe activar el botón azul 'Contactar Responsable', luego completar el formulario y enviarlo. De este modo, Ud. recibirá un correo con los datos de la persona responsable del animal (datos de contacto) y ésta, a su vez, recibirá un correo con los datos de contacto que Ud ingresó en el formulario. Usando estos datos podrá comunicarse a la brevedad y coordinar el reencuentro del animal con su familia.
+       Si el animal no se encuentra registrado, o bien no hay respuesta del tenedor responsable, envíenos su nombre, teléfono y correo electrónico, indicando la especie del animal de compañía (gato o perro), su número de microchip, región y comuna del hallazgo, a la casilla electrónica: tenenciaresponsable@subdere.gov.cl </p>
+</section>
+<section id="form">
+    <form action="/procesar_formulario" method="post">
+        <label for="microchip">Microchip de Identificación:</label><br>
+        <input type="text" id="microchip" name="microchip" placeholder="Ingrese el microchip de identificación"><br>
+<br>
+        <label for="nombre">Nombre de la Mascota:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre de la mascota"><br>
+<br>
+        <button type="submit">Enviar formulario</button>
+
+    </form>
+</section>
+
+</body>
+</html>

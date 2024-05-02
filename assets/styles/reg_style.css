@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+}
+header{
+    margin-bottom: 40px;
+}
+#navegar {
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgb(47, 6, 16);
+    color: #c06a8b;
+    padding: 6px;
+}
+
+#navegar h1 {
+    color: #efccda;
+    padding: 10px;
+    margin: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.menu {
+    padding: 6px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #e8adc1;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ff0080;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(47, 6, 16, 0.78);
+}
+
+.container {
+    width: 69%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label,
+input,
+select,
+textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #540d2b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a67291;
+}

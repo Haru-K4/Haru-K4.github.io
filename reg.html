@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprobante de Existencia para Registro de Microchip</title>
+    <link rel="stylesheet" href="assets/styles/reg_style.css">
+</head>
+<body>
+<header>
+    <header>
+        <section id="navegar">
+            <h1>Registro Nacional de Tenencia Responsable
+                de Mascotas y Animales de Compañía</h1>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="registro.html">Requisitos</a>
+                <a href="index.html">Preguntas frecuentes</a>
+                <a href="perdido.html">Consulta de animales perdidos</a>
+                <a href="reg.html">Mis solicitudes</a>
+            </nav>
+</header>
+<div class="container">
+    <h1>Comprobante de Existencia para Registro de Microchip</h1>
+    <form action="#" method="post">
+        <label for="nombre-dueno">Nombre del Dueño:</label>
+        <input type="text" id="nombre-dueno" name="nombre-dueno" required>
+
+        <label for="nombre-mascota">Nombre de la Mascota:</label>
+        <input type="text" id="nombre-mascota" name="nombre-mascota" required>
+
+        <label for="edad-mascota">Edad de la Mascota:</label>
+        <input type="number" id="edad-mascota" name="edad-mascota" required>
+
+        <label for="numero-registro">Número de Registro:</label>
+        <input type="text" id="numero-registro" name="numero-registro" required>
+
+        <label for="fecha-microchip">Fecha de implantación del microchip:</label>
+        <input type="date" id="fecha-microchip" name="fecha-microchip" required>
+
+        <label for="tipo-microchip">Tipo de Microchip:</label>
+        <select id="tipo-microchip" name="tipo-microchip" required>
+            <option value="ISO 11784/11785">ISO 11784/11785</option>
+            <option value="FDX-B">FDX-B</option>
+            <option value="FDX-A">FDX-A</option>
+            <option value="HDX">HDX</option>
+        </select>
+
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+</body>
+</html>

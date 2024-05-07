@@ -7,21 +7,27 @@
     <link rel="stylesheet" href="assets/styles/estilos_index.css">
 </head>
 <body>
-
 <header>
     <section id="navegar">
         <h1>Registro Nacional de Tenencia Responsable
             de Mascotas y Animales de Compañía</h1>
-        <nav class="menu">
-            <a href="#inicio">Inicio</a>
-            <a href="registro.html">Requisitos</a>
-            <a href="#preg">Preguntas frecuentes</a>
-            <a href="perdido.html">Consulta de animales perdidos</a>
-            <a href="reg.html">Mis solicitudes</a>
+        <nav>
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="registro.html">Requisitos</a></li>
+                <li><a href="#preg">Preguntas frecuentes</a></li>
+                <li><a href="perdido.html">Conuslta de animales perdidos</a></li>
+                <li><a href="reg.html">Mis solicitudes</a></li>
+            </ul>
         </nav>
     </section>
     <section id="banner">
-    <img src="assets/img/banner2.jpg">
+        <img src="assets/img/banner2.jpg" >
         <section id="banner_contenido">
             <h4>REGISTRO DE MASCOTAS</h4>
             <br/>
@@ -39,7 +45,7 @@
     </section>
     <section id="inicio">
         <p>Te damos la bienvenida a nuestra pagina de registro para tu mascota aqui podras encontrar el formulario de registro ademas de
-        los servicios de busqueda de mascotas desaparecidas gracias a los microchips</p>
+            los servicios de busqueda de mascotas desaparecidas gracias a los microchips</p>
     </section>
     <section id="preg">
         <h2>PREGUNTAS FRECUENTES</h2>
@@ -54,15 +60,8 @@
             ningun conbro por el registro, pero estamos abiertos a recibir colaboraciones y donaciones, ademas que tenemos otros
             servicios extra que ayudan con el costo de los mantenimientos como la instalacion de microchips y busqueda mediante estos
         </p>
-
     </section>
-
-
-
-
-
 </main>
-
 <footer>
     <p>Los datos registrados en esta plataforma se encuentran protegidos <br> por la ley 19.628 Sobre Proteccion de vida privada</p>
     <h6>LINKS</h6>
@@ -76,10 +75,15 @@
         <a href="https://www.x.com">
             <img src="assets/img/x.png" alt="Descripción de la imagen">
         </a>
-
-
-
     </section>
 </footer>
+<script>
+    const menuIcon = document.querySelector('.menu-icon');
+    const menu = document.querySelector('.menu');
+
+    menuIcon.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
+</script>
 </body>
 </html>
